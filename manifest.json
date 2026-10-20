@@ -1,0 +1,55 @@
+{
+  "version": "0.1.0",
+  "minecraft": "26.1.2",
+  "neoforge": "26.1.2.122",
+  "server": {
+    "name": "모닥불마을",
+    "address": ""
+  },
+  "managedDirs": [
+    "mods"
+  ],
+  "files": [
+    {
+      "path": "mods/villagecheque-0.1.0.jar",
+      "url": "https://github.com/moon-hamyo/moodakbul-server/releases/download/v0.1.0/villagecheque-0.1.0.jar",
+      "sha1": "667da853b71924dae0a424a4533c9e5c8f350a48",
+      "size": 27876
+    },
+    {
+      "path": "mods/villageeconomy-0.1.0.jar",
+      "url": "https://github.com/moon-hamyo/moodakbul-server/releases/download/v0.1.0/villageeconomy-0.1.0.jar",
+      "sha1": "0e3083e73fb5a0caf340bf03bab6d1e824d35fb7",
+      "size": 14615
+    },
+    {
+      "path": "mods/villageland-0.1.0.jar",
+      "url": "https://github.com/moon-hamyo/moodakbul-server/releases/download/v0.1.0/villageland-0.1.0.jar",
+      "sha1": "02c8c94d44e828261ce948827aaf279f397178e7",
+      "size": 51033
+    },
+    {
+      "path": "mods/villagemenu-0.1.0.jar",
+      "url": "https://github.com/moon-hamyo/moodakbul-server/releases/download/v0.1.0/villagemenu-0.1.0.jar",
+      "sha1": "c2e64ff2f6bbd6f7d57440fa4c4264893a5d527c",
+      "size": 1351782
+    },
+    {
+      "path": "mods/villagesell-0.1.0.jar",
+      "url": "https://github.com/moon-hamyo/moodakbul-server/releases/download/v0.1.0/villagesell-0.1.0.jar",
+      "sha1": "738313d08cddf961964099e6fb72ebf07194c818",
+      "size": 42737
+    }
+  ],
+  "news": [
+    {
+      "date": "10. 20",
+      "title": "서버마을 광장과 마을 회관이 생겼어요"
+    },
+    {
+      "date": "10. 19",
+      "title": "경제·수표·판매·땅 첫 버전"
+    }
+  ],
+  "generated": "2026-10-20T04:25:56Z"
+}
