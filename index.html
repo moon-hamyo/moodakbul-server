@@ -1,0 +1,207 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>모닥불마을</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<meta name="description" content="일해서 번 돈으로 마을에 내 집을 짓는 마인크래프트 경제·하우징 서버, 모닥불마을">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="top">
+  <div class="wrap">
+    <a class="brand" href="index.html"><canvas class="logo" width="16" height="16" aria-hidden="true"></canvas>모닥불마을</a>
+    <nav aria-label="페이지 메뉴">
+      <a href="index.html#about">소개</a>
+      <a href="index.html#start">시작하기</a>
+      <a href="rules.html">규칙</a>
+      <a href="news.html">소식</a>
+    </nav>
+  </div>
+</header>
+
+<section class="hero" id="top">
+  <div class="wrap">
+    <div>
+      <div class="meta">
+        <span class="chip">Java판 26.1.2</span>
+        <span class="chip">NeoForge 모드 서버</span>
+        <span class="chip">정품 계정 전용</span>
+      </div>
+      <h1>모닥불마을</h1>
+      <p class="lead">광질하고, 나무 베고, 물고기 낚아 번 돈으로 마을에 내 땅을 사서 집을 짓는 마인크래프트 서버예요. 하루 일을 마치면 광장 분수 앞에서 만나요.</p>
+      <div class="cta">
+        <a class="btn btn-fire" href="https://github.com/moon-hamyo/moodakbul-server/releases/latest/download/moodakbul-launcher-setup.exe" id="download">런처 받기</a>
+        <a class="btn btn-plain" href="#start">처음 오셨나요?</a>
+      </div>
+      <p class="soon" id="soon">윈도우용이에요. 실행할 때 "Windows의 PC 보호" 창이 뜨면 "추가 정보"를 누른 뒤 "실행"을 눌러 주세요.</p>
+    </div>
+    <div class="fire-stage"><canvas id="fire" width="48" height="48" role="img" aria-label="타닥타닥 타오르는 도트 모닥불"></canvas></div>
+  </div>
+  <div class="ground"></div>
+</section>
+
+<main class="wrap">
+  <section class="board" id="about">
+    <h2>어떤 서버인가요?</h2>
+    <p class="sub">야생에서 일하고, 번 돈으로 마을에 정착하는 경제·하우징 서버예요. 모든 기능은 이 서버를 위해 직접 만들었어요.</p>
+    <div class="features">
+      <div class="feature"><img class="px" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAABKklEQVR4nGNgGAWjYIABI7karbUU/iPzj157QJZZLORanushz8DAwMDw6MV7qKjCf3IcQdAB6D4lVS0hR+GVtNZS+H9kfRax9mMFNoHT8DqCiSLTiQBH1mfhDUWaO4CQI+jiAHyALg7Alw4I5oKX9y9RZHlw0RG8iZBgvsUVd+jlwMYLn7DqJ5QNCUYBuSUcsXqJCoHcPevJcsBkl0DKQoASy4kFOB1AD8vxOuDotQeMk10Cae4AvNnw6LUHjAwugf9dFk+gmQOISuHYsiIx2ZCYXEBUewDdIFxlAzlZdmTUBRQ5AD24CbWQkOWJaU3hTAMwzY5zvBkYUrbCDXKc482wP2UrTj3I6pHZuNIHVkG4QVQE+1O2YnXEgKcBnNmGlNYwMYCSWnV4AwA4XoQT+HEadgAAAABJRU5ErkJggg==" alt="" width="52" height="52">
+        <div><h3>두 개의 세계</h3><p>돈을 버는 자원 월드와, 땅을 사서 사는 서버마을이 나뉘어 있어요. 메뉴에서 버튼 하나로 오가요.</p></div></div>
+      <div class="feature"><img class="px" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAABL0lEQVR4nGNgGAWjYKQDRlIUW2sp/CdG3dFrD4g2l2iF1loK/9fOyiJKbXDaNKIdwUSsA2gFiHbA0WsPGIPTphFUR4rvSXIArcCAO4CkRNiq40WU2uor26ibCInNfuToIehKUrIfOiAmQQ54GhjcDqAk+BkYGBjWzsoimBZYSDVUXMcOhf/yyiFSjaDMAeQA5FBAT5QkOwCfj8VFDmOIHVmni8K3CWL4j+wI6idC9U0kKadaFMB9f9OP4eGFzRjy8ga+DAwMkBBBDgWapQGYhQwMDFgdBANEOeD5w7sE1YiLEGMSJhjwgghvCEAbIf+nVLuTbDC+YCfaAaSAC2elGAyMnzEwMKDGPzqwCbqMUhYQdMDRaw8Yc1p3ElW1oud5YgBJzXJCgJg2ACntxZEBALgPZoK0VaXeAAAAAElFTkSuQmCC" alt="" width="52" height="52">
+        <div><h3>2시간마다 장사</h3><p>2시간마다 팔 분야를 하나 골라 그 분야만 팔아요. 판매 한도가 있어서 마을 물가가 지켜져요.</p></div></div>
+      <div class="feature"><img class="px" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAaElEQVR4nGNgGPKAEcaw1lL4T4rGo9ceMMINsNZS+N+1r4Ekm8ucGhiOXnvAyESSLiyABZmz/d5pONtTyZShsrkeq6b22kbsBuBTiAtQ1wvoAJsX0F2FYoCnkilexdgAxV6gOCENAwAAVcIbxA9RXVMAAAAASUVORK5CYII=" alt="" width="52" height="52">
+        <div><h3>원하는 금액의 수표</h3><p>잔고에서 수표를 뽑아 친구에게 건넬 수 있어요. 일련번호가 있어서 복사해도 소용없어요.</p></div></div>
+      <div class="feature"><img class="px" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAABLklEQVR4nGNgGAWjYIABI7karbUU/iPzj157wIhNDlkcG2Ah1/IjCVkoYjYLpv0/eu0Bo7WWwv9cD3lkqf/4HMFEDcsZGBgYjiRkYYQKMYAkB+CyHNkRNHMAIcvJdQRRDiDWchgIl/CmngNItZxUR+B1ALmWk+IIrNkDlpopsRwZ2CyYxsDAgL1MwBCw1lL4v9TGjSoWo4PoI7swHEFyOUBtgD8Kjm2jiiU2Vl4MDAzYowBrCBAqv8kBuMwkvi7g12SYcAXBLZC9TrGjSHIAsuXoYGVTJoZYeN10oswd8EQ44A4gOgqoFefogOohEJ7GN7AOWDnr08A6gFSANw28fnyDbIOJ1YvhAHLadcQAmLnoJSIjuiLHOcS3ZsgB+1O2ojgCa3VMSwfQop4Z2gAAK1FsY+O9G20AAAAASUVORK5CYII=" alt="" width="52" height="52">
+        <div><h3>마을에 내 땅</h3><p>광장에서 뻗은 길가에 땅이 줄지어 있어요. 땅을 사면 마음껏 짓고, 친구를 불러 함께 꾸밀 수 있어요.</p></div></div>
+    </div>
+
+    <h3 class="jobs-title">돈을 버는 다섯 가지 방법</h3>
+    <ul class="jobs">
+      <li><b>사냥</b><span>밤에 나오는 몬스터를 잡아 전리품을 모아요</span></li>
+      <li><b>광질</b><span>땅속 깊이 내려가 광석을 캐요</span></li>
+      <li><b>벌목</b><span>숲에서 나무를 베어 원목을 모아요</span></li>
+      <li><b>낚시</b><span>물가에 앉아 물고기를 낚아요</span></li>
+      <li><b>농사</b><span>밭을 일구고 작물을 길러 수확해요</span></li>
+    </ul>
+  </section>
+
+  <section class="board" id="start">
+    <h2>시작하기</h2>
+    <p class="sub">처음 접속해서 내 집을 짓기까지의 순서예요.</p>
+    <ol class="steps">
+      <li><div><h3>런처로 접속하기</h3><p>전용 런처가 서버에 필요한 모드, 글꼴, 리소스를 자동으로 맞춰 줘요. 정품 Microsoft 계정으로 로그인해요.</p></div></li>
+      <li><div><h3>자원 월드에서 일하기</h3><p>직접 얻은 광물, 나무, 작물, 물고기, 전리품에는 "획득: 내 이름"이 붙어요. 내가 얻은 것만 팔 수 있어요.</p></div></li>
+      <li><div><h3>판매 분야 고르고 팔기</h3><p><span class="key">Shift</span> + <span class="key">F</span> 메뉴의 판매에서 이번 2시간 동안 팔 분야를 골라요. 판매 상자에 넣고 닫으면 바로 돈이 들어와요.</p></div></li>
+      <li><div><h3>마을 땅 사기</h3><p>메뉴의 이동에서 서버마을로 가서 길을 따라 걸어 보세요. 판매 중인 땅에 들어가면 가격이 보이고, 그 자리에서 살 수 있어요.</p></div></li>
+      <li><div><h3>집 짓고 꾸미기</h3><p>내 땅에서는 마음껏 짓고 부술 수 있어요. 함께 지을 친구는 공동 건축자로 초대해요.</p></div></li>
+    </ol>
+
+    <h3 class="cmds-title">알아 두면 좋은 명령어</h3>
+    <div class="cmds-wrap">
+      <table class="cmds">
+        <tbody>
+          <tr><th colspan="2">메뉴</th></tr>
+          <tr><td><span class="key">Shift</span> + <span class="key">F</span></td><td>서버 메뉴 열기 (이동, 내 정보, 판매, 내 땅)</td></tr>
+          <tr><th colspan="2">돈</th></tr>
+          <tr><td><code>/돈</code></td><td>내 잔고 보기</td></tr>
+          <tr><td><code>/송금 이름 금액</code></td><td>다른 사람에게 돈 보내기</td></tr>
+          <tr><td><code>/수표 발행 금액</code></td><td>잔고에서 수표 뽑기 (수표를 들고 우클릭하면 입금)</td></tr>
+          <tr><td><code>/판매</code></td><td>판매 분야 고르기, 판매 상자 열기</td></tr>
+          <tr><td><code>/판매 정보</code></td><td>이번 분야의 가격과 남은 한도 보기</td></tr>
+          <tr><th colspan="2">땅</th></tr>
+          <tr><td><code>/땅</code></td><td>서 있는 땅 정보 보기</td></tr>
+          <tr><td><code>/땅 구매</code></td><td>서 있는 땅 사기</td></tr>
+          <tr><td><code>/땅 목록</code></td><td>내 땅 목록 보기</td></tr>
+          <tr><td><code>/땅 추가 이름</code> · <code>/땅 제거 이름</code></td><td>공동 건축자 초대, 빼기</td></tr>
+          <tr><td><code>/땅 판매</code></td><td>내 땅 되팔기</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section class="board" id="rules">
+    <h2>서버 규칙</h2>
+    <p class="sub">모두가 편하게 지내기 위한 큰 약속이에요. 자세한 내용은 규칙 페이지에서 확인해 주세요.</p>
+    <ul class="rules">
+      <li><b>정품 계정으로만</b><span>정품 Microsoft 계정으로 접속하고, 계정을 나눠 쓰지 않아요.</span></li>
+      <li><b>공정하게 플레이하기</b><span>핵, 매크로, 버그 악용, 자동 농장으로 남보다 앞서가지 않아요.</span></li>
+      <li><b>남의 것은 남의 것</b><span>다른 사람의 땅, 집, 물건을 허락 없이 건드리지 않아요.</span></li>
+      <li><b>서로 존중하기</b><span>욕설, 비하, 도배, 사칭 없이 즐겁게 이야기해요.</span></li>
+    </ul>
+    <div class="more"><a class="btn btn-plain" href="rules.html">자세한 규칙 보기</a></div>
+  </section>
+
+  <section class="board" id="news">
+    <h2>소식</h2>
+    <div class="latest" style="margin-top: 22px;">
+      <time datetime="2026-10-20">2026. 10. 20</time>
+      <h3>서버마을 광장과 마을 회관이 생겼어요<span class="tag">마을</span></h3>
+    </div>
+    <div class="more"><a class="btn btn-plain" href="news.html">모든 소식 보기</a></div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <span>모닥불마을 · 개인이 운영하는 마인크래프트 서버</span>
+    <span>Minecraft는 Mojang Studios의 상표이며, 이 서버는 Mojang 및 Microsoft와 관계가 없어요.</span>
+    <span>이 페이지에는 카페24(주)가 제공한 Cafe24 PRO SLIM Max와, 고운돋움(SIL OFL)이 적용되어 있어요.</span>
+  </div>
+</footer>
+
+<script>
+(function () {
+  var reduce = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+  // 도트 모닥불: 48x48 캔버스에 통나무 + 불꽃 + 불티
+  function campfire(canvas) {
+    var ctx = canvas.getContext("2d");
+    var W = canvas.width, s = W / 48;
+    var sparks = [];
+    var FLAME = ["#fff3b0", "#ffd84d", "#ffb13b", "#e8743b", "#c4442a"];
+    function px(x, y, c) { ctx.fillStyle = c; ctx.fillRect(Math.round(x * s), Math.round(y * s), Math.ceil(s), Math.ceil(s)); }
+    function logs() {
+      for (var i = 0; i < 26; i++) {
+        var y1 = 40 - Math.floor(i / 5);
+        px(11 + i, y1, "#6b4a33"); px(11 + i, y1 + 1, "#4e3626");
+        var y2 = 35 + Math.floor(i / 5);
+        px(11 + i, y2, "#7a5233"); px(11 + i, y2 + 1, "#5c4130");
+      }
+      px(11, 40, "#c9a27a"); px(36, 35, "#c9a27a");
+      [[8,42],[12,43],[17,44],[23,44],[29,44],[34,43],[39,42]].forEach(function (p) {
+        px(p[0], p[1], "#8a8f96"); px(p[0] + 1, p[1], "#8a8f96"); px(p[0], p[1] - 1, "#c6cbd1"); px(p[0] + 1, p[1] + 1, "#5d6268");
+      });
+    }
+    function flame(t) {
+      var cx = 24, base = 36;
+      for (var y = 0; y < 22; y++) {
+        var w = Math.max(0, (22 - y) * 0.42 + Math.sin(t * 0.006 + y * 0.7) * 1.2);
+        var sway = Math.sin(t * 0.004 + y * 0.35) * (y * 0.12);
+        for (var x = -Math.floor(w); x <= Math.floor(w); x++) {
+          var edge = Math.abs(x) / (w + 0.01);
+          var level = Math.min(4, Math.floor(edge * 3 + y / 7 + (Math.random() < 0.08 ? 1 : 0)));
+          if (y > 16 && Math.random() < 0.35) continue;
+          px(cx + x + Math.round(sway), base - y, FLAME[level]);
+        }
+      }
+    }
+    function frame(t) {
+      ctx.clearRect(0, 0, W, W);
+      flame(t || 0);
+      logs();
+      if (Math.random() < 0.25) sparks.push({ x: 20 + Math.random() * 8, y: 18, v: 0.15 + Math.random() * 0.2, l: 60 });
+      sparks = sparks.filter(function (p) { p.y -= p.v; p.x += Math.sin(p.y) * 0.15; p.l--; return p.l > 0 && p.y > 0; });
+      sparks.forEach(function (p) { px(p.x, p.y, p.l > 30 ? "#ffd84d" : "#e8743b"); });
+    }
+    if (reduce) { frame(0); return; }
+    var last = 0;
+    function loop(t) { if (t - last > 90) { frame(t); last = t; } requestAnimationFrame(loop); }
+    requestAnimationFrame(loop);
+  }
+  campfire(document.getElementById("fire"));
+
+})();
+</script>
+<script>
+(function () {
+  // 상단 로고: 16x16 작은 모닥불
+  var rows = [
+    "......Y.........", ".....YY.........", ".....YOY..Y.....", "....YOOY.YY.....",
+    "....OOROYOY.....", "...OORRROOY.....", "...ORRRRROO.....", "...ORRYYRRO.....",
+    "...ORYYYYRO.....", "....RYYYYR......", ".BB..YYYY..BB...", "..BBb....bBB....",
+    "....BBbbBB......", "..bBB.bb.BBb....", ".bb........bb...", "................"];
+  var col = { Y: "#ffd84d", O: "#ffb13b", R: "#e8743b", B: "#7a5233", b: "#4e3626" };
+  document.querySelectorAll("canvas.logo").forEach(function (c) {
+    var g = c.getContext("2d");
+    rows.forEach(function (r, y) { for (var x = 0; x < 16; x++) { var k = r[x]; if (col[k]) { g.fillStyle = col[k]; g.fillRect(x + 1, y, 1, 1); } } });
+  });
+})();
+</script>
+</body>
+</html>

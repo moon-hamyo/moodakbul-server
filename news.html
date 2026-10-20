@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>모닥불마을 소식</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<meta name="description" content="모닥불마을 서버의 개발 소식과 업데이트">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="top">
+  <div class="wrap">
+    <a class="brand" href="index.html"><canvas class="logo" width="16" height="16" aria-hidden="true"></canvas>모닥불마을</a>
+    <nav aria-label="페이지 메뉴">
+      <a href="index.html#about">소개</a>
+      <a href="index.html#start">시작하기</a>
+      <a href="rules.html">규칙</a>
+      <a href="news.html" aria-current="page">소식</a>
+    </nav>
+  </div>
+</header>
+
+<section class="pagehead">
+  <div class="wrap">
+    <h1>소식</h1>
+    <p>만들고 있는 것, 바뀐 것을 알려 드려요. 가장 최근 소식이 맨 위에 있어요.</p>
+  </div>
+</section>
+
+<main class="wrap">
+  <section class="board">
+    <div class="news">
+      <article id="2026-10-20"><time datetime="2026-10-20">2026. 10. 20</time>
+        <div><h3>서버마을 광장과 마을 회관이 생겼어요<span class="tag">마을</span></h3>
+          <ul>
+            <li>서버마을에 도착하면 분수 너머로 가문비나무로 지은 마을 회관이 보여요.</li>
+            <li>광장에는 분수, 가문비나무와 꽃밭, 덤불, 벤치, 가로등이 있어요.</li>
+            <li>광장에서 남·동·서쪽으로 길이 뻗고, 길가에 땅이 줄지어 있어요.</li>
+            <li>Shift+F 서버 메뉴를 도트 그래픽으로 새로 그렸어요. 내 정보에 내 스킨 얼굴이 나와요.</li>
+            <li>게임 글꼴과 메뉴 글꼴을 바꿨어요.</li>
+          </ul></div></article>
+      <article id="2026-10-19"><time datetime="2026-10-19">2026. 10. 19</time>
+        <div><h3>경제·수표·판매·땅 첫 버전<span class="tag">개발</span></h3>
+          <ul>
+            <li>잔고와 송금, 수표 발행과 입금을 만들었어요.</li>
+            <li>2시간 판매 주기와 분야 선택, 획득자 기록을 만들었어요.</li>
+            <li>땅 구획, 구매, 보호, 공동 건축자, 되팔기를 만들었어요.</li>
+          </ul></div></article>
+    </div>
+  </section>
+  <div class="more" style="margin-top: -20px;"><a class="btn btn-plain" href="index.html">처음 화면으로</a></div>
+</main>
+
+<footer>
+  <div class="wrap">
+    <span>모닥불마을 · 개인이 운영하는 마인크래프트 서버</span>
+    <span>Minecraft는 Mojang Studios의 상표이며, 이 서버는 Mojang 및 Microsoft와 관계가 없어요.</span>
+    <span>이 페이지에는 카페24(주)가 제공한 Cafe24 PRO SLIM Max와, 고운돋움(SIL OFL)이 적용되어 있어요.</span>
+  </div>
+</footer>
+<script>
+(function () {
+  // 상단 로고: 16x16 작은 모닥불
+  var rows = [
+    "......Y.........", ".....YY.........", ".....YOY..Y.....", "....YOOY.YY.....",
+    "....OOROYOY.....", "...OORRROOY.....", "...ORRRRROO.....", "...ORRYYRRO.....",
+    "...ORYYYYRO.....", "....RYYYYR......", ".BB..YYYY..BB...", "..BBb....bBB....",
+    "....BBbbBB......", "..bBB.bb.BBb....", ".bb........bb...", "................"];
+  var col = { Y: "#ffd84d", O: "#ffb13b", R: "#e8743b", B: "#7a5233", b: "#4e3626" };
+  document.querySelectorAll("canvas.logo").forEach(function (c) {
+    var g = c.getContext("2d");
+    rows.forEach(function (r, y) { for (var x = 0; x < 16; x++) { var k = r[x]; if (col[k]) { g.fillStyle = col[k]; g.fillRect(x + 1, y, 1, 1); } } });
+  });
+})();
+</script>
+</body>
+</html>
