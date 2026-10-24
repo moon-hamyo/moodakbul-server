@@ -1,5 +1,5 @@
 {
-  "version": "0.1.0",
+  "version": "0.2.0",
   "minecraft": "26.1.2",
   "neoforge": "26.1.2.122",
   "server": {
@@ -12,36 +12,58 @@
   "files": [
     {
       "path": "mods/villagecheque-0.1.0.jar",
-      "url": "https://github.com/moon-hamyo/moodakbul-server/releases/download/v0.1.0/villagecheque-0.1.0.jar",
-      "sha1": "667da853b71924dae0a424a4533c9e5c8f350a48",
-      "size": 27876
+      "url": "https://github.com/moon-hamyo/moodakbul-server/releases/download/v0.2.0/villagecheque-0.1.0.jar",
+      "sha1": "f3b193fe507772d484efff9502f7f782c25208c6",
+      "size": 28008
     },
     {
       "path": "mods/villageeconomy-0.1.0.jar",
-      "url": "https://github.com/moon-hamyo/moodakbul-server/releases/download/v0.1.0/villageeconomy-0.1.0.jar",
-      "sha1": "0e3083e73fb5a0caf340bf03bab6d1e824d35fb7",
-      "size": 14615
+      "url": "https://github.com/moon-hamyo/moodakbul-server/releases/download/v0.2.0/villageeconomy-0.1.0.jar",
+      "sha1": "46de6a3c1d7c89bfd349821c4801035e79810bc3",
+      "size": 161452
+    },
+    {
+      "path": "mods/villagefest-0.1.0.jar",
+      "url": "https://github.com/moon-hamyo/moodakbul-server/releases/download/v0.2.0/villagefest-0.1.0.jar",
+      "sha1": "414a8c8b8ba8fd37b016f7bcf65af5bd0cb048d1",
+      "size": 168918
     },
     {
       "path": "mods/villageland-0.1.0.jar",
-      "url": "https://github.com/moon-hamyo/moodakbul-server/releases/download/v0.1.0/villageland-0.1.0.jar",
-      "sha1": "02c8c94d44e828261ce948827aaf279f397178e7",
-      "size": 51033
+      "url": "https://github.com/moon-hamyo/moodakbul-server/releases/download/v0.2.0/villageland-0.1.0.jar",
+      "sha1": "d2d44e3020398a9a52cba074c73bfd00c6fc6161",
+      "size": 522146
     },
     {
       "path": "mods/villagemenu-0.1.0.jar",
-      "url": "https://github.com/moon-hamyo/moodakbul-server/releases/download/v0.1.0/villagemenu-0.1.0.jar",
-      "sha1": "c2e64ff2f6bbd6f7d57440fa4c4264893a5d527c",
-      "size": 1351782
+      "url": "https://github.com/moon-hamyo/moodakbul-server/releases/download/v0.2.0/villagemenu-0.1.0.jar",
+      "sha1": "fe87e137cf5f8298c8b05ff2495405aeef696870",
+      "size": 1043001
+    },
+    {
+      "path": "mods/villagepet-0.1.0.jar",
+      "url": "https://github.com/moon-hamyo/moodakbul-server/releases/download/v0.2.0/villagepet-0.1.0.jar",
+      "sha1": "453cc04ff10b8a539769425d77c3bb74b79d1b89",
+      "size": 57850
+    },
+    {
+      "path": "mods/villagequest-0.1.0.jar",
+      "url": "https://github.com/moon-hamyo/moodakbul-server/releases/download/v0.2.0/villagequest-0.1.0.jar",
+      "sha1": "d7525983970d5e6f88c9af853dc65fd072c9e919",
+      "size": 173632
     },
     {
       "path": "mods/villagesell-0.1.0.jar",
-      "url": "https://github.com/moon-hamyo/moodakbul-server/releases/download/v0.1.0/villagesell-0.1.0.jar",
-      "sha1": "738313d08cddf961964099e6fb72ebf07194c818",
-      "size": 42737
+      "url": "https://github.com/moon-hamyo/moodakbul-server/releases/download/v0.2.0/villagesell-0.1.0.jar",
+      "sha1": "f1a2bbdee69f4a8f1fae55a55e405644beaa6f8e",
+      "size": 50525
     }
   ],
   "news": [
+    {
+      "date": "10. 24",
+      "title": "친구들과 첫 테스트 버전 (런처 0.2.0, 쉐이더 선택 설치)"
+    },
     {
       "date": "10. 20",
       "title": "서버마을 광장과 마을 회관이 생겼어요"
@@ -51,5 +73,5 @@
       "title": "경제·수표·판매·땅 첫 버전"
     }
   ],
-  "generated": "2026-10-20T04:25:56Z"
+  "generated": "2026-10-24T09:16:57Z"
 }
